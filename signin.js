@@ -4,6 +4,8 @@ document.getElementById("loginBtn").addEventListener("click", function () {
   const passField = document.getElementById("passInput");
   const passWord = passField.value.toLowerCase();
 
+
+  
   if (userName === "admin" && passWord === "admin123") {
     alert("Login successFull");
     window.location.assign("./dashboard.html");
